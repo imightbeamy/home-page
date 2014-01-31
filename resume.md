@@ -49,5 +49,5 @@ Marie desJardins, **Amy Ciavolino**, Robert Deloatch, and Eliana Feasley. [_"Pla
 * Gender and Women in Technology
 * Introduction to Bioinformatics
 
-
+\* Graduate level class taken for undergraduate credit.
 
