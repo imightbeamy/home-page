@@ -16,23 +16,21 @@
             display: inline-block;
             -webkit-transform: rotate(-45deg);
         }
-        .circle {
-            width: 200%;
-            height: 200%;
-            border-radius: 50%;
-            float: right;
-        }
         .square, .filler {
             width: 100px;
             height: 100px;
             overflow: hidden;
             display: inline-block;
         }
+        .square:before {
+            width: 200%;
+            height: 200%;
+            border-radius: 50%;
+            float: right;
+            content: "";
+        }
         .filler {
             visibility: hidden;
-        }
-        .inner-row {
-            display: inline-block;
         }
         .row {
             float: left;
@@ -42,31 +40,31 @@
             -webkit-transform: rotate(180deg);
         }
 
-        .row:nth-child(odd) .square:nth-of-type(1) .circle,
+        .row:nth-child(odd) .square:nth-of-type(1):before,
         .row:nth-child(even) .square:nth-of-type(1) {
             background-color: #8D9837;
         }
         .row:nth-child(odd) .square:nth-of-type(1),
-        .row:nth-child(odd) .square:nth-of-type(2) .circle,
+        .row:nth-child(odd) .square:nth-of-type(2):before,
         .row:nth-child(even) .square:nth-of-type(2),
-        .row:nth-child(even) .square:nth-of-type(1) .circle {
+        .row:nth-child(even) .square:nth-of-type(1):before {
             background-color: #497853;
         }
     
         .row:nth-child(odd) .square:nth-of-type(2),
-        .row:nth-child(odd) .square:nth-of-type(3) .circle,
+        .row:nth-child(odd) .square:nth-of-type(3):before,
         .row:nth-child(even) .square:nth-of-type(3),
-        .row:nth-child(even) .square:nth-of-type(2) .circle {
+        .row:nth-child(even) .square:nth-of-type(2):before{
             background-color: #2D4F13;
         }
         .row:nth-child(odd) .square:nth-of-type(3),
-        .row:nth-child(odd) .square:nth-of-type(4) .circle,
+        .row:nth-child(odd) .square:nth-of-type(4):before,
         .row:nth-child(even) .square:nth-of-type(4),
-        .row:nth-child(even) .square:nth-of-type(3) .circle {
+        .row:nth-child(even) .square:nth-of-type(3):before {
             background-color: #154036;
         }
         .row:nth-child(odd) .square:nth-of-type(4),
-        .row:nth-child(even) .square:nth-of-type(4) .circle {
+        .row:nth-child(even) .square:nth-of-type(4):before{
             background-color: #0D2B0D;
         }
 
@@ -80,72 +78,34 @@
         <div class="image-crop">
             <div class="image">
                 <div class="row">
-                    <div class="square">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="square">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="square">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="square">
-                        <div class="circle"></div>
-                    </div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
                 </div>
                 <div class="row">
-                    <div class="filler"></div>
-                    <div class="inner-row">
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
+                    <span class="filler"></span>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
                 </div>
                 <div class="row">
-                    <div class="filler"></div>
-                    <div class="filler"></div>
-                    <div class="inner-row">
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
+                    <span class="filler"></span>
+                    <span class="filler"></span>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
                 </div>
                 <div class="row">
-                    <div class="filler"></div>
-                    <div class="filler"></div>
-                    <div class="filler"></div>
-                    <div class="inner-row">
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="square">
-                            <div class="circle"></div>
-                        </div>
-                    </div>
+                    <span class="filler"></span>
+                    <span class="filler"></span>
+                    <span class="filler"></span>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
                 </div>
             </div>
         </div>
