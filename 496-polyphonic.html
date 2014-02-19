@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body {
+            text-align: center;
+            color: #154036;
+        }
+        a {
+            color: #497853;
+        }
+        .image-crop {
+            overflow: hidden;
+        }
+        .image {
+            display: inline-block;
+            -webkit-transform: rotate(-45deg);
+        }
+        .circle {
+            width: 200%;
+            height: 200%;
+            border-radius: 50%;
+            float: right;
+        }
+        .square, .filler {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            display: inline-block;
+        }
+        .filler {
+            visibility: hidden;
+        }
+        .inner-row {
+            display: inline-block;
+        }
+        .row {
+            float: left;
+            clear: both;
+        }
+        .row:nth-child(even) .square {
+            -webkit-transform: rotate(180deg);
+        }
+
+        .row:nth-child(odd) .square:nth-of-type(1) .circle,
+        .row:nth-child(even) .square:nth-of-type(1) {
+            background-color: #8D9837;
+        }
+        .row:nth-child(odd) .square:nth-of-type(1),
+        .row:nth-child(odd) .square:nth-of-type(2) .circle,
+        .row:nth-child(even) .square:nth-of-type(2),
+        .row:nth-child(even) .square:nth-of-type(1) .circle {
+            background-color: #497853;
+        }
+    
+        .row:nth-child(odd) .square:nth-of-type(2),
+        .row:nth-child(odd) .square:nth-of-type(3) .circle,
+        .row:nth-child(even) .square:nth-of-type(3),
+        .row:nth-child(even) .square:nth-of-type(2) .circle {
+            background-color: #2D4F13;
+        }
+        .row:nth-child(odd) .square:nth-of-type(3),
+        .row:nth-child(odd) .square:nth-of-type(4) .circle,
+        .row:nth-child(even) .square:nth-of-type(4),
+        .row:nth-child(even) .square:nth-of-type(3) .circle {
+            background-color: #154036;
+        }
+        .row:nth-child(odd) .square:nth-of-type(4),
+        .row:nth-child(even) .square:nth-of-type(4) .circle {
+            background-color: #0D2B0D;
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1>A CSS rendering of
+            <a href="http://geometrydaily.tumblr.com/image/56970557840" target="_blank">#496 Polyphonic</a>
+            from <a href="http://geometrydaily.tumblr.com/">Geometry Daily</a>
+        </h1>
+        <div class="image-crop">
+            <div class="image">
+                <div class="row">
+                    <div class="square">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="square">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="square">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="square">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="filler"></div>
+                    <div class="inner-row">
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="filler"></div>
+                    <div class="filler"></div>
+                    <div class="inner-row">
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="filler"></div>
+                    <div class="filler"></div>
+                    <div class="filler"></div>
+                    <div class="inner-row">
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="square">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
