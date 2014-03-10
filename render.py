@@ -10,23 +10,24 @@ RESUME_YALM = 'resume.yaml'
 ASSET_DIR = 'assets'
 ART_DIR = ASSET_DIR + '/art'
 DATA_FILE = lambda f: 'data/' + f
+SRC_FILE = lambda f: 'src/' + f
 
 def render():
 	data = {
-                'assets': ASSET_DIR,
-                'month': time.localtime().tm_mon,
-                'year': time.localtime().tm_year,
+        'assets': ASSET_DIR,
+        'month': time.localtime().tm_mon,
+        'year': time.localtime().tm_year,
 		'projects': from_yaml(PROJECT_YAML),
 		'resume': from_yaml(RESUME_YALM),
 		'art': art(),
                 'css': css()
 	}
-	tpl = open('homepage.mustache', 'r').read()
+	tpl = open(SRC_FILE('homepage.mustache'), 'r').read()
 	rendered = pystache.render(tpl, data)
 	open('index.html', 'w').write(rendered)
 
 def css():
-    return open('main.css', 'r').read()
+    return open(SRC_FILE('main.css'), 'r').read()
 
 def from_yaml(file):
 	return yaml.load(open(DATA_FILE(file),'r').read())
