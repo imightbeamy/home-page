@@ -1,0 +1,75 @@
+jobs:
+    -
+      title: "Software Engineer"
+      company: "Etsy Inc."
+      date: "June '12 - Present"
+    -
+      title: "Computer Science Teaching Assistant"
+      company: "UMBC Computer Science Department"
+      date: "Sept '11 - May '12"
+    -
+      title: "Software Engineering Intern"
+      company: "Google Inc."
+      date: "Summer '11"
+    -
+      title: "Research Assistant"
+      company: "MAPLE Lab at UMBC"
+      date: "Jan '10 - Aug '11"
+    -
+      title: "Computer Science Tutor and Lab Assistant"
+      company: "UMBC Computer Science Department"
+      date: "Sept '10 – May '11"
+    -
+      title: "NSF Research Experience for Undergraduates"
+      company: "Rochester Institute of Technology"
+      date: "Summer '10"
+education:
+    -
+      school: "University of Maryland Baltimore County"
+      location: "Baltimore, MD"
+      date: "May 2012"
+      degree: "B.S. in Computer Science, Cum Laude"
+      gpa: 3.56
+    -
+      school: "Harford Community College"
+      location: "Bel Air, MD"
+      date: "May 2009"
+      degree: "A.S. in Mathematics, High Honors"
+      gpa: 3.76
+
+publications:
+    -
+      authors: "Marie desJardins, Amy Ciavolino, Robert Deloatch, and Eliana Feasley"
+      title: "Playing to Program: Toward an Intelligent Programming Tutor for RUR-PLE"
+      details: "Paper presented at the Second Symposium on Educational Advances in Artificial Intelligence, Aug. 9–10, 2011; San Francisco, California."
+    -
+      authors: "Amy Ciavolino, Camille Marvin, Jason Creighton, James Coddington, Hans-Peter Bischof, and Reynold Bailey."
+      title: "Toward Affordable Gesture Based Interfaces: An Exploration with Wii Remotes."
+      details: "Paper presented at the International Conference on the Information Visualization Theory and Applications, Mar 5–7, 2011; Algarve, Portugal."
+
+awards:
+    -
+     title: 'UMBC Center for Women In Technology Scholar'
+    -
+     title: '"Young Adult Mentor Award", MD state FIRST Lego League tournament'
+     date: "Jun '08"
+    -
+     title: '"Commitment to Excellence", from Harford Community College for contribution of time and effort as a student leader'
+     date: "May '09"
+
+
+other_positions:
+    -
+      title: "Google Student Ambassador"
+      date: "'11–'12 School Year"
+    -
+      title: "Head Technical Judge at MD First Lego League tournament"
+      date: "Annually,'08 – '12"
+    -
+      title: "VP of Public Relations for Phi Theta Kappa, Rho Beta Chapter"
+      date: "'08–'09 School Year"
+    -
+      title: "Jarrettsville Taekwondo: First degree Black Belt"
+    -
+      title: "Ukulele instructor at Neighbors music camp for inner-city children"
+      date: "Summer '07 and '08"

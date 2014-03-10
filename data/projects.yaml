@@ -1,0 +1,48 @@
+-
+  title: "Home Page for Liz Ciavolino"
+  date: "January 2013"
+  image: "LizHarpSite.png"
+  link: "http://lizciavolino.com"
+  description: "Homepage for Liz Ciavolino to take harp performance requests."
+-
+  title: "Etsy Drift"
+  date: "November 2011"
+  image: "drift.png"
+  link: "http://etsydrift.appspot.com"
+  description: "Web application developed on Google App Engine using the Etsy API."
+-
+  title: "Photo Hash"
+  date: "October 2011"
+  image: "photohash.png"
+  link: "http://www.photohash.appspot.com"
+  description: "Web application developed on Google App Engine using the Google+ API. The Google+ API has since changed, and this hasn't been updated."
+-
+  title: "Chrome theme for UMBC"
+  date: "September 2011"
+  image: "theme.png"
+  link: "https://chrome.google.com/webstore/detail/nkbeinhlhlcadmfpaihnallbljoopogh"
+  description: "This is a Chrome theme with University of Maryland Baltimore County colors!"
+-
+  title: "Playing to Program"
+  date: "Januray 2010 - May 2011"
+  image: "rur-ple-1.png"
+  link: "http://code.google.com/p/play-to-program/"
+  description: 'Computer science teaching reseach with <a href="http://maple.cs.umbc.edu/">MAPLE Lab</a> at UMBC.'
+-
+  title: "Photo Booth with Live Slideshow"
+  date: "April 2011"
+  image: "photobooth.jpg"
+  link: "http://www.instructables.com/id/Live-Slide-Show-Photo-Booth/"
+  description: 'Instructable was featured on the instructables.co home page! Second prize winner of <a href="http://www.instructables.com/contest/partychallenge/">Ultimate Party Challenge!</a>'
+-
+  title: "Final Project for CMSC 491 - iOS Development"
+  date: "Fall 2010"
+  image: "CHI2010.png"
+  link: "http://userpages.umbc.edu/~dhood2/courses/cmsc491i/fall2010/final-projectsaci1-tburke2/"
+  description: 'Final Project for CMSC 491 - iOS Development'
+-
+  title: "Project for CMSC 635 - Computer Graphics"
+  date: "Fall 2010"
+  image: "veggies_sq.png"
+  link: "/images/veggies.png"
+  description: 'Rendered using <a href="http://www.renderpixie.com/">Pixie</a>'

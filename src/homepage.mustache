@@ -1,0 +1,86 @@
+<DOCTYPE html>
+	<html>
+	<head>
+    	<link rel="icon" type="image/png" href="/favicon.ico">
+        <title> Amy Ciavolino</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+            {{ css }}
+		</style>
+	</head>
+	<body>
+    <h1><a href="/">Amy Ciavolino</a></h1>
+		<ul>
+			<li><a href="#resume">Resume</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#art">Art</a></li>
+		</ul>
+		<div>
+			<p>
+				Hi, I'm Amy! I currenty live in NYC where I work as a software engineer at <a href="http://www.etsy.com">Etsy.com</a>.
+				You can find me on
+				<a href="https://github.com/imightbeamy">GitHub</a>,
+				<a href="https://plus.google.com/111084801246354633245/about">Google+</a>, and
+				<a href="http://www.linkedin.com/pub/amy-ciavolino/2b/968/73b">LinkedIn</a>.
+			</p>
+		</div>
+	</p>
+	<h2 id="resume">Resume</h2>
+        <ol>
+            {{# resume.jobs }}
+                <li>{{ title }}</li>
+            {{/ resume.jobs }}
+        </ol>
+        <ol>
+            {{# resume.education }}
+                <li>{{ school }}</li>
+            {{/ resume.education }}
+        </ol>
+        <ol>
+            {{# resume.publications }}
+                <li>{{ title }}</li>
+            {{/ resume.publications }}
+        </ol>
+        <ol>
+            {{# resume.awards }}
+                <li>{{ title }}</li>
+            {{/ resume.awards }}
+        </ol>
+        <ol>
+            {{# resume.other_positions }}
+                <li>{{ title }}</li>
+            {{/ resume.other_positions }}
+        </ol>
+
+
+	<div>
+		<a href="{{ assets }}/Resume_AmyCiavolino.pdf">Download a Copy</a>
+	</div>
+	<h2 id="projects">Projects</h2>
+	<div class="projects">
+		<ol>
+			{{# projects }}
+                <li>
+                    <a href="{{ link }}">
+                        <img src="{{ assets }}/projects/{{ image }}" />
+                        <span>{{ title }}</span>
+                    </a>
+
+                    <p>{{ date }}</p>
+                    <p>
+                        {{{ description }}}
+                    </p>
+                </li>
+			{{/ projects }}
+		</ol>
+	</div>
+	<h2 id="art">Art</h2>
+	<div class="art">
+		{{# art }}
+            <a href="{{ assets }}/art/{{ image }}"><img src="{{ assets }}/art/small/{{ image }}" /></a>
+        {{/ art }}
+	</div>
+    <div class="updated">Last updated {{ month }}/{{ year }}</div>
+</body>
+</html>
