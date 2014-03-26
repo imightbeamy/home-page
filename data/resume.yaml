@@ -41,11 +41,13 @@ publications:
     -
       authors: "Marie desJardins, Amy Ciavolino, Robert Deloatch, and Eliana Feasley"
       title: "Playing to Program: Toward an Intelligent Programming Tutor for RUR-PLE"
-      details: "Paper presented at the Second Symposium on Educational Advances in Artificial Intelligence, Aug. 9-10, 2011; San Francisco, California."
+      details: "Paper presented at the Second Symposium on Educational Advances in Artificial Intelligence, Aug. 9-10, 2011; San Francisco, California"
+      link: "http://ebiquity.umbc.edu/_file_directory_/papers/562.pdf"
     -
-      authors: "Amy Ciavolino, Camille Marvin, Jason Creighton, James Coddington, Hans-Peter Bischof, and Reynold Bailey."
-      title: "Toward Affordable Gesture Based Interfaces: An Exploration with Wii Remotes."
-      details: "Paper presented at the International Conference on the Information Visualization Theory and Applications, Mar 5-7, 2011; Algarve, Portugal."
+      authors: "Amy Ciavolino, Camille Marvin, Jason Creighton, James Coddington, Hans-Peter Bischof, and Reynold Bailey"
+      title: "Toward Affordable Gesture Based Interfaces: An Exploration with Wii Remotes"
+      details: "Paper presented at the International Conference on the Information Visualization Theory and Applications, Mar 5-7, 2011; Algarve, Portugal"
+      link: "http://www.cs.rit.edu/~reu/papers/ourpaper.pdf"
 
 awards:
     -

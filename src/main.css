@@ -36,7 +36,7 @@
 }
 
 body {
-    max-width: 600px;
+    max-width: 700px;
     font-family: 'Gabriela', Georgia, serif;
     margin: auto;
 }
@@ -48,6 +48,9 @@ h1 {
 }
 h2 {
     margin: 0;
+}
+h3 {
+    margin: 15px 0 0;
 }
 section {
     border: solid 2px #E4E4E4;
@@ -99,8 +102,23 @@ ol {
     background: #EEE
 }
 
-.resume span {
+.resume ol {
+    font-size: .8em;
+    margin: 0;
+    color: #888;
+    margin: 0 0 1em 1em;
+}
+.resume strong {
+    color: #000;
+}
+.resume span  {
     float: right;
+}
+.resume li {
+    margin-top: 1em;
+}
+.resume .pubs {
+    line-height: 1.5em;
 }
 
 .projects img {
@@ -108,12 +126,12 @@ ol {
     min-width: 2em;
     width: 15%;
     float: left;
-    margin: 0 10px 10px 0;
+    margin-right: 10px;
     border-radius: 5px;
 }
 .projects p {
     font-size: .8em;
-    margin: 0 0 10px;
+    margin: 0;
 }
 .projects span {
     font-weight: bold;
@@ -121,7 +139,9 @@ ol {
     overflow: hidden;
 }
 .projects li {
-    clear: both;
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
 }
 
 .art img {
@@ -139,8 +159,16 @@ ol {
 @media (max-width: 350px) {
     .projects p {
         clear: both;
-        padding-top: 10px;
         margin: 0;
+    }
+    .resume ol {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 630px) {
+    .resume span  {
+        display: none;
     }
 }
 </style>

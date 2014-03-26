@@ -33,26 +33,24 @@
   <section class="resume">
     <h2 id="resume">R&eacute;sum&eacute;</h2>
     <h3>Work and Reseach</h3>
-    <ol>
+    <ol class="jobs">
         {{# resume.jobs }}
-        <li>{{ title }}, {{ company }} <span>{{date}}</span></li>
+        <li>{{ title }}, <strong>{{ company }}</strong> <span>{{date}}</span></li>
         {{/ resume.jobs }}
     </ol>
     <h3>Education</h3>
     <ol>
         {{# resume.education }}
-        <li>{{ school }}, {{ location }}<br>{{ degree }}</li>
+        <li><strong>{{ school }}</strong>, {{ location }}<br>{{ degree }}</li>
         {{/ resume.education }}
     </ol>
     <h3>Publications</h3>
-    <ol>
+    <ol class="pubs">
         {{# resume.publications }}
-        <li>{{ authors }}. {{ title }}. {{ details }}</li>
+        <li><strong>{{ authors }}.</strong> <a href="{{ link }}">{{ title }}</a>. {{ details }}.</li>
         {{/ resume.publications }}
     </ol>
-    <div>
-      <a href="{{ assets }}/Resume_AmyCiavolino.pdf">Download a PDF Copy</a>
-  </div>
+    <a href="{{ assets }}/Resume_AmyCiavolino.pdf">Download a PDF Copy</a>
   </section>
   <section class="art">
   <h2 id="art">Art</h2>
