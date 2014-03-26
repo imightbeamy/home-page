@@ -30,6 +30,12 @@
   link: "http://www.photohash.appspot.com"
   description: "Web application developed on Google App Engine using the Google+ API. The Google+ API has since changed, and this hasn't been updated."
 -
+  title: "Generalized Automatic Color Selection for Visualization"
+  date: "Fall 2011"
+  image: "color.png"
+  link: "assets/color.pdf"
+  description: "Project for CMSC 636, Data Visualization."
+-
   title: "Chrome theme for UMBC"
   date: "September 2011"
   image: "theme.png"
@@ -52,7 +58,7 @@
   title: "Final Project for CMSC 491 - iOS Development"
   date: "Fall 2010"
   image: "CHI2010.png"
-  link: "http://userpages.umbc.edu/~dhood2/courses/cmsc491i/fall2010/final-projectsaci1-tburke2/"
+  link: "http://userpages.umbc.edu/~dhood2/courses/cmsc491i/fall2010/final-projects/projects/aci1-tburke2/"
   description: 'Final Project for CMSC 491 - iOS Development'
 -
   title: "Project for CMSC 635 - Computer Graphics"
