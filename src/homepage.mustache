@@ -14,30 +14,21 @@
 <body>
   <h1><a href="/">Amy Ciavolino</a></h1>
   <section class="intro">
-     <p>
-        Software engineer living in NYC and working at <a href="http://www.etsy.com">Etsy</a>.
-        <ol>
-          <li><a href="https://github.com/imightbeamy" class="icon-github"></a></li>
-          <li><a href="https://twitter.com/imightbeAmy" class="icon-twitter"></a></li>
-          <li><a href="https://www.linkedin.com/in/amyciavolino" class="icon-linkedin"></a></li>
-        <ol>
-    </p>
+      Software engineer living in NYC and working at <a href="http://www.etsy.com">Etsy</a>.
+      <ol>
+        <li><a href="https://github.com/imightbeamy" class="icon-github"></a></li>
+        <li><a href="https://twitter.com/imightbeAmy" class="icon-twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/amyciavolino" class="icon-linkedin"></a></li>
+      <ol>
   </section>
   <section class="projects">
     <h2 id="projects">Projects</h2>
     <ol>
         {{# projects }}
-        <li>
-            <a href="{{ link }}">
-                <img src="{{ assets }}/projects/{{ image }}" />
-                <span>{{ title }}</span>
-            </a>
-            <p>
-                {{{ description }}}
-            </p>
-        </li>
+          {{> src/project }}
         {{/ projects }}
     </ol>
+    <a href="#old-projects">See older projects below.</a>
   </section>
   <section class="resume">
     <h2 id="resume">R&eacute;sum&eacute;</h2>
@@ -68,6 +59,14 @@
   {{# art }}
   <a href="{{ assets }}/art/{{ image }}"><img src="{{ assets }}/art/small/{{ image }}" /></a>
   {{/ art }}
+  </section>
+  <section class="projects">
+    <h2 id="old-projects">Old Projects</h2>
+    <ol>
+        {{# old_projects }}
+          {{> src/project }}
+        {{/ old_projects }}
+    </ol>
   </section>
   <div class="updated">Last updated {{ month }}/{{ year }}</div>
 </body>

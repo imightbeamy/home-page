@@ -1,4 +1,11 @@
 -
+  title: "Right Now at Fluent"
+  date: "March 2014"
+  image: "fluent.png"
+  link: "http://right-now-at-fluent.herokuapp.com/"
+  description: 'HUD for what talks were happening at <a href="http://fluentconf.com/fluent2014">Fluent Conf</a>.'
+  source: "https://github.com/imightbeamy/happening-now-at"
+-
   title: "Home Page for Liz Ciavolino"
   date: "January 2013"
   image: "LizHarpSite.png"
