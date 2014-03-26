@@ -2,7 +2,6 @@ html {
     background: #BEBEBE;
     background-image: url('assets/background.png');
 }
-
 body {
     max-width: 600px;
     font-family: 'Gabriela', Georgia, serif;
@@ -22,44 +21,48 @@ h2 {
     border-bottom: solid 2px #E4E4E4;
     padding-top: 10px;
 }
-ul {
-    float: right;
-    margin: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin: 5px;
-    padding: 0;
-    background: #FFF;
-    border-radius: 5px;
-    overflow: hidden;
-}
-ul li {
-    float: left;
-    padding: 5px;
-}
-ul li:active,
-ul li:hover {
-    background: #EEE
-}
 a {
-    color: #f6a33f;
+    color: #AA3030;
     text-decoration: none;
 }
-
-a {
-    color: #f6a33f;
-    text-decoration: underline;
-}
-
-ol {
-    list-style: none;
-    padding: 0;
+a:hover {
+    text-decoration:underline;
 }
 div {
     overflow: hidden;
     width: 100%;
 }
+
+.nav {
+    position: fixed;
+    right: 0;
+    margin: 5px 15px;
+    padding: 0;
+    background: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    list-style: none;
+}
+.nav ol {
+    list-style: none;
+    padding: 0;
+}
+.nav li {
+    float: left;
+    padding: 5px;
+}
+.nav li:active,
+.nav li:hover {
+    background: #EEE
+}
+
+.resume {
+    font-size: 0.8em;
+}
+.resume span {
+    float: right;
+}
+
 .projects img {
     max-width: 50px;
     min-width: 2em;

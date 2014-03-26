@@ -5,7 +5,7 @@ jobs:
       date: "June '12 - Present"
     -
       title: "Computer Science Teaching Assistant"
-      company: "UMBC Computer Science Department"
+      company: "UMBC CS Department"
       date: "Sept '11 - May '12"
     -
       title: "Software Engineering Intern"
@@ -17,11 +17,11 @@ jobs:
       date: "Jan '10 - Aug '11"
     -
       title: "Computer Science Tutor and Lab Assistant"
-      company: "UMBC Computer Science Department"
-      date: "Sept '10 – May '11"
+      company: "UMBC CS Department"
+      date: "Sept '10 - May '11"
     -
       title: "NSF Research Experience for Undergraduates"
-      company: "Rochester Institute of Technology"
+      company: "Rochester Inst of Tech"
       date: "Summer '10"
 education:
     -
@@ -41,11 +41,11 @@ publications:
     -
       authors: "Marie desJardins, Amy Ciavolino, Robert Deloatch, and Eliana Feasley"
       title: "Playing to Program: Toward an Intelligent Programming Tutor for RUR-PLE"
-      details: "Paper presented at the Second Symposium on Educational Advances in Artificial Intelligence, Aug. 9–10, 2011; San Francisco, California."
+      details: "Paper presented at the Second Symposium on Educational Advances in Artificial Intelligence, Aug. 9-10, 2011; San Francisco, California."
     -
       authors: "Amy Ciavolino, Camille Marvin, Jason Creighton, James Coddington, Hans-Peter Bischof, and Reynold Bailey."
       title: "Toward Affordable Gesture Based Interfaces: An Exploration with Wii Remotes."
-      details: "Paper presented at the International Conference on the Information Visualization Theory and Applications, Mar 5–7, 2011; Algarve, Portugal."
+      details: "Paper presented at the International Conference on the Information Visualization Theory and Applications, Mar 5-7, 2011; Algarve, Portugal."
 
 awards:
     -
