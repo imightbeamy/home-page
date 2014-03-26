@@ -1,9 +1,15 @@
 -
+  title: "Teaching Intro CS in Python"
+  date: "August 2013-Now"
+  image: "ischool_logo.png"
+  link: "http://roomfourzerotwo.com/cs/"
+  description: 'Assignments, slides, and other materials for a computer science class I teach at NYC iSchool.'
+-
   title: "Right Now at Fluent"
   date: "March 2014"
   image: "fluent.png"
   link: "http://right-now-at-fluent.herokuapp.com/"
-  description: 'HUD for what talks were happening at <a href="http://fluentconf.com/fluent2014">Fluent Conf</a>.'
+  description: 'HUD for what talks were happening at <a href="http://fluentconf.com/fluent2014">Fluent Conf 2014</a>.'
   source: "https://github.com/imightbeamy/happening-now-at"
 -
   title: "Home Page for Liz Ciavolino"
