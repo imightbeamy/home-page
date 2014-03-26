@@ -4,6 +4,7 @@ import pystache
 import yaml
 import os
 import time
+from csscompressor import compress
 
 PROJECT_YAML = 'projects.yaml'
 NEW_PROJ_NUMBER = 4
@@ -23,14 +24,14 @@ def render():
 		'old_projects': projects[NEW_PROJ_NUMBER:],	
 		'resume': from_yaml(RESUME_YALM),
 		'art': art(),
-                'css': css()
+        'css': css()
 	}
 	tpl = open(SRC_FILE('homepage.mustache'), 'r').read()
 	rendered = pystache.render(tpl, data)
 	open('index.html', 'w').write(rendered)
 
 def css():
-    return open(SRC_FILE('main.css'), 'r').read()
+    return compress(open(SRC_FILE('main.css'), 'r').read())
 
 def from_yaml(file):
 	return yaml.load(open(DATA_FILE(file),'r').read())
