@@ -1,4 +1,3 @@
-<style type="text/css">
 @font-face {
     font-family: 'icomoon';
     font-weight: normal;
@@ -152,8 +151,8 @@ ol {
 }
 
 .updated {
+    text-align: center;
     padding: 10px 0;
-    text-align: right;
 }
 
 @media (max-width: 350px) {
@@ -171,4 +170,3 @@ ol {
         display: none;
     }
 }
-</style>

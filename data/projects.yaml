@@ -41,6 +41,7 @@
   image: "rur-ple-1.png"
   link: "http://code.google.com/p/play-to-program/"
   description: 'Computer science teaching reseach with <a href="http://maple.cs.umbc.edu/">MAPLE Lab</a> at UMBC.'
+  source: "https://code.google.com/p/nuwii/"
 -
   title: "Photo Booth with Live Slideshow"
   date: "April 2011"

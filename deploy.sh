@@ -58,6 +58,7 @@ fi
 
 echo "Starting Uploads... "
 upload index.html
+upload .htaccess
 
 if [ -n "$UPLOAD_ASSETS" ] ; then
     upload assets
