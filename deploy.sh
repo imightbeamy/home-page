@@ -11,7 +11,7 @@ varify_step() {
 
 upload() {
     echo -n "Deploying $1..."
-    scp -r $1 $USERNAME@amyciavolino.com:~/public_html/new
+    rsync --exclude=".DS_Store" -v -r --delete -e ssh $1 $USERNAME@amyciavolino.com:~/public_html/new
     varify_step "$1 upload"
 }
 
