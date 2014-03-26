@@ -1,26 +1,71 @@
-html {
-    background: #BEBEBE;
-    background-image: url('assets/background.png');
+<style type="text/css">
+@font-face {
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal;
 }
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: block;
+    font-size: 3em;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+    color: #C9C9C9;
+}
+.icon-twitter:before {
+    content: "\e600";
+}
+.icon-github:before {
+    content: "\e603";
+}
+.icon-linkedin:before {
+    content: "\e604";
+}
+
 body {
     max-width: 600px;
     font-family: 'Gabriela', Georgia, serif;
-    position: relative;
     margin: auto;
-    background: #FFF;
-    padding: 0 10px;
-    border-left: solid 1px;
-    border-right: solid 1px;
 }
 h1 {
-    margin: 0;
-    float: left;
-    padding-top: 1em;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    font-size: 3em;
 }
 h2 {
-    border-bottom: solid 2px #E4E4E4;
-    padding-top: 10px;
+    margin: 0;
 }
+section {
+    border: solid 2px #E4E4E4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+section.intro {
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+.intro li {
+    display: inline-block;
+    margin: 0 2em;
+}
+
 a {
     color: #AA3030;
     text-decoration: none;
@@ -32,20 +77,18 @@ div {
     overflow: hidden;
     width: 100%;
 }
-
+ol {
+    list-style: none;
+    padding: 0;
+}
 .nav {
     position: fixed;
     right: 0;
-    margin: 5px 15px;
+    top: 0;
+    margin: 0;
     padding: 0;
     background: #FFF;
-    border-radius: 5px;
-    overflow: hidden;
     list-style: none;
-}
-.nav ol {
-    list-style: none;
-    padding: 0;
 }
 .nav li {
     float: left;
@@ -56,9 +99,6 @@ div {
     background: #EEE
 }
 
-.resume {
-    font-size: 0.8em;
-}
 .resume span {
     float: right;
 }
@@ -72,9 +112,8 @@ div {
     border-radius: 5px;
 }
 .projects p {
-    overflow: hidden;
     font-size: .8em;
-    margin: 10px;
+    margin: 0;
 }
 .projects span {
     font-weight: bold;
@@ -104,3 +143,4 @@ div {
         margin: 0;
     }
 }
+</style>
