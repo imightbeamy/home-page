@@ -5,18 +5,18 @@
   link: "https://github.com/imightbeamy/buzzerbot9000"
   description: 'Raspi/twilio/node robot that opens the door to my apartment building.'
 -
-  title: "Teaching Intro CS in Python"
-  date: "August 2013-Now"
-  image: "ischool_logo.png"
-  link: "http://roomfourzerotwo.com/cs/"
-  description: 'Assignments, slides, and other materials for a computer science class I teach at NYC iSchool.'
--
   title: "Event Merge for Google Calendar (tm)"
   date: "May 2014"
   image: "gcal_cex.png"
   link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
   description: 'Chrome extension that visually merges the same event on multiple calendars.'
   source: "https://github.com/imightbeamy/gcal-multical-event-merge"
+-
+  title: "Teaching Intro CS in Python"
+  date: "August 2013-Now"
+  image: "ischool_logo.png"
+  link: "http://roomfourzerotwo.com/cs/"
+  description: 'Assignments, slides, and other materials for a computer science class I teach at NYC iSchool.'
 -
   title: "Right Now at Fluent"
   date: "March 2014"
