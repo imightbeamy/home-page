@@ -1,4 +1,17 @@
 -
+  title: "Event Merge for Google Calendar (tm)"
+  date: "May 2014"
+  image: "gcal_cex.png"
+  link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
+  description: 'Chrome extension that visually merges the same event on multiple calendars.'
+  source: "https://github.com/imightbeamy/gcal-multical-event-merge"
+-
+  title: "Buzzerbot 9000"
+  date: "Summer 2013/Spring 2014"
+  image: "buzzerbot.png"
+  link: "https://github.com/imightbeamy/buzzerbot9000"
+  description: 'Raspi/twilio/node robot that opens the door to my apartment building.'
+-
   title: "Teaching Intro CS in Python"
   date: "August 2013-Now"
   image: "ischool_logo.png"
