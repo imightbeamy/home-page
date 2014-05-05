@@ -1,39 +1,3 @@
-@font-face {
-    font-family: 'icomoon';
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    font-family: 'icomoon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    display: block;
-    font-size: 3em;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-
-[class^="icon-"]:hover, [class*=" icon-"]:hover {
-    color: #C9C9C9;
-}
-.icon-twitter:before {
-    content: "\e600";
-}
-.icon-github:before {
-    content: "\e603";
-}
-.icon-linkedin:before {
-    content: "\e604";
-}
-
 body {
     max-width: 700px;
     font-family: 'Gabriela', Georgia, serif;
@@ -66,6 +30,16 @@ section.intro {
 .intro li {
     display: inline-block;
     margin: 0 5%;
+}
+
+.icon {
+    width: 3em;
+    height: 3em;
+    fill: #AA3030;
+}
+
+.icon:hover {
+    fill: #C9C9C9;
 }
 
 a {
