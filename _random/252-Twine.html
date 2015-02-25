@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                text-align: center;
+            }
+            .image {
+                display: inline-block;
+                height: 500px;
+                position: relative;
+            }
+            span {
+                position: absolute;
+                transform-origin: 170px 170px;
+                width: 170px;
+                height: 50px;
+                display: block; 
+                background: rgb(51, 46, 42);
+                left: -150px;
+                top: 60px;
+            }
+            span:after {
+                border-right: 50px solid transparent;
+                border-bottom: 50px solid rgb(51, 46, 42);
+                content: '';
+                position: absolute;
+                right: -49px;
+            }
+            span:before {
+                border-right: 50px solid transparent;
+                border-top: 50px solid rgb(51, 46, 42);
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -49px;
+            }
+            span:nth-child(even) {
+                background: rgb(66, 88, 111);
+            }
+            span:nth-child(even):after {
+                border-bottom-color: rgb(66, 88, 111);
+            }
+            span:nth-child(even):before {
+                border-top-color: rgb(66, 88, 111);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>A CSS rendering of
+            <a href="http://geometrydaily.tumblr.com/image/31121882191" target="_blank">#252 Twine</a>
+            from <a href="http://geometrydaily.tumblr.com/">Geometry Daily</a>
+        </h1>
+        <div class="image">
+            <span style="transform:rotate(0deg)"></span>
+            <span style="transform:rotate(45deg)"></span>
+            <span style="transform:rotate(90deg)"></span>
+            <span style="transform:rotate(135deg)"></span>
+            <span style="transform:rotate(180deg)"></span>
+            <span style="transform:rotate(225deg)"></span>
+            <span style="transform:rotate(270deg)"></span>
+            <span style="transform:rotate(315deg)"></span>
+        </div>
+        <p>
+            <a href="https://github.com/imightbeamy/home-page/blob/master/_random/252-Twine.html">Code on GitHub.</a>
+            Only guaranteed to work in Chrome.
+        </p>
+    </body>
+</html>
