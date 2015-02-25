@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amy Ciavolino - Projects</title>
+    {{> src/head }}
+</head>
+<body>
+    <section class="intro">
+        <a href="/">Back</a>
+    </section>
+    <section class="projects">
+    <h2 id="projects">Projects</h2>
+    <ol>
+        {{# all_projects }}
+          {{> src/project }}
+        {{/ all_projects }}
+    </ol>
+  </section>
+</body>
+</html>

@@ -1,18 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="image/png" href="/favicon.ico">
-  <title> Amy Ciavolino</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
-  <link rel="icon" type="image/png" href="./favicon.ico">
-  <meta content="Projects etc. by Amy Ciavolino. A software engineer living in NYC and working at Etsy.com" name="description">
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-  <style type="text/css">
-    {{{ css }}}
-  </style>
-   {{> src/svg }}
+  <title>Amy Ciavolino - Software Engineer in NYC</title>
+  {{> src/head }}
 </head>
 <body>
   <h1><a href="/">Amy Ciavolino</a></h1>
@@ -34,6 +24,11 @@
             <svg class="icon" viewBox="0 0 32 32"><use xlink:href="#icon-linkedin"></use></svg>
           </a>
         </li>
+        <li>
+          <a href="https://instagram.com/imightbeamy/">
+            <svg class="icon" viewBox="0 0 32 32"><use xlink:href="#icon-instagram"></use></svg>
+          </a>
+        </li>
       <ol>
   </section>
   <section class="projects">
@@ -43,42 +38,30 @@
           {{> src/project }}
         {{/ projects }}
     </ol>
-    <a href="#old-projects">See older projects below.</a>
+    <a href="projects.html">Older projects</a>
   </section>
   <section class="resume">
-    <h2 id="resume">R&eacute;sum&eacute;</h2>
-    <h3>Work and Reseach</h3>
+    <h2 id="resume">Jobs</h2>
     <ol class="jobs">
         {{# resume.jobs }}
         <li>{{ title }}, <strong>{{ company }}</strong> <span>{{date}}</span></li>
         {{/ resume.jobs }}
     </ol>
-    <h3>Education</h3>
+  </section>
+  <section class="resume">
+    <h2>Education</h2>
     <ol>
         {{# resume.education }}
         <li><strong>{{ school }}</strong>, {{ location }}<br>{{ degree }}</li>
         {{/ resume.education }}
     </ol>
-    <h3>Publications</h3>
+  </section>
+  <section class="resume">
+    <h2>Publications</h2>
     <ol class="pubs">
         {{# resume.publications }}
         <li><strong>{{ authors }}.</strong> <a href="{{ link }}">{{ title }}</a>. {{ details }}.</li>
         {{/ resume.publications }}
-    </ol>
-    <a href="{{ assets }}/Resume_AmyCiavolino.pdf">Download a PDF Copy</a>
-  </section>
-  <section class="art">
-  <h2 id="art">Art</h2>
-    {{# art }}
-      <a href="{{ assets }}/art/{{ image }}"><img src="{{ assets }}/art/small/{{ image }}" /></a>
-    {{/ art }}
-  </section>
-  <section class="projects">
-    <h2 id="old-projects">Old Projects</h2>
-    <ol>
-        {{# old_projects }}
-          {{> src/project }}
-        {{/ old_projects }}
     </ol>
   </section>
   <div class="updated">
