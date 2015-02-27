@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                text-align: center;
+            }
+            .image {
+                display: inline-block;
+            }
+            .triangle {
+                width: 0;
+                position: relative;
+                border-style: solid;
+                border-width: 0 150px 259.8px 150px;
+                border-color: transparent transparent #0F2B36 transparent;
+            }
+            .circle {
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 34px;
+                overflow: hidden;
+                transform: rotate(-30deg);
+                left: -23px;
+            }
+            .half {
+                background: #004723;
+                width: 50%;
+                height: 100%;
+                float: right;
+            }
+            .half:last-child {
+                background: #3C6870;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>A CSS rendering of
+            <a href="http://geometrydaily.tumblr.com/image/20061857621" target="_blank">#88 Eclipse</a>
+            from <a href="http://geometrydaily.tumblr.com/">Geometry Daily</a>
+        </h1>
+        <div class="image">
+            <div class="triangle">
+                <div class="circle">
+                    <div class="half"></div>
+                    <div class="half"></div>
+                </div>
+            </div>
+        </div>
+        <p>
+            <a href="https://github.com/imightbeamy/home-page/blob/master/_random/88-eclipse.html">Code on GitHub.</a>
+            Only guaranteed to work in Chrome.
+        </p>
+    </body>
+</html>
