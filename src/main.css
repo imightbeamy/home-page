@@ -27,9 +27,14 @@ section.intro {
     padding: 0;
     text-align: center;
 }
-.intro li {
-    display: inline-block;
+.social {
+    padding-top: 20px;
+}
+.social a {
     margin: 0 5%;
+}
+.social span {
+    white-space: nowrap;
 }
 
 .icon {
@@ -48,6 +53,9 @@ a {
 }
 a:hover {
     text-decoration:underline;
+}
+.social a, h1 a {
+    text-decoration:none;
 }
 div {
     overflow: hidden;
@@ -111,19 +119,25 @@ ol {
     text-align: center;
     padding: 10px 0;
 }
+.updated a {
+    white-space: nowrap;
+}
+
+@media (max-width: 630px) {
+    .resume ol {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .resume span  {
+        display: none;
+    }
+}
 
 @media (max-width: 350px) {
     .projects p {
         clear: both;
         margin: 0;
-    }
-    .resume ol {
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 630px) {
-    .resume span  {
-        display: none;
     }
 }
