@@ -8,6 +8,7 @@ h1 {
     padding: 0;
     text-align: center;
     font-size: 3em;
+    color: #AA3030;
 }
 h2 {
     margin: 0;
@@ -54,7 +55,7 @@ a {
 a:hover {
     text-decoration:underline;
 }
-.social a, h1 a {
+.social a {
     text-decoration:none;
 }
 div {
