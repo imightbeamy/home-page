@@ -11,7 +11,13 @@ varify_step() {
 
 upload() {
     echo -n "Deploying $1..."
-    rsync --exclude=".DS_Store" -v -r --delete -e ssh $1 $USERNAME@amyciavolino.com:~/public_html
+    scp  $1 $USERNAME@amyciavolino.com:~/public_html
+    varify_step "$1 upload"
+}
+
+upload_dir() {
+    echo -n "Deploying $1..."
+    scp -r  $1 $USERNAME@amyciavolino.com:~/public_html
     varify_step "$1 upload"
 }
 
@@ -62,7 +68,7 @@ upload projects.html
 upload .htaccess
 
 if [ -n "$UPLOAD_ASSETS" ] ; then
-    upload assets
+    upload_dir assets
 fi
 
 
