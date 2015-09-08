@@ -1,9 +1,10 @@
 -
-  title: "Buzzerbot 9000"
-  date: "Summer 2013/Spring 2014"
-  image: "buzzerbot.png"
-  link: "https://github.com/imightbeamy/buzzerbot9000"
-  description: 'Raspi/twilio/node robot that opens the door to my apartment building.'
+  title: "Sunrise, Sunset"
+  date: "Sept 2015"
+  image: "sun.jpg"
+  link: "https://sunrise-sunset.herokuapp.com/"
+  description: "Pulls recent sunrise and sunset images from twitter"
+  source: "https://github.com/imightbeamy/sunrise-sunset"
 -
   title: "Event Merge for Google Calendar (tm)"
   date: "May 2014"
@@ -11,6 +12,12 @@
   link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
   description: 'Chrome extension that visually merges the same event on multiple calendars.'
   source: "https://github.com/imightbeamy/gcal-multical-event-merge"
+-
+  title: "Buzzerbot 9000"
+  date: "Summer 2013/Spring 2014"
+  image: "buzzerbot.png"
+  link: "https://github.com/imightbeamy/buzzerbot9000"
+  description: 'Raspi/twilio/node robot that opens the door to my apartment building.'
 -
   title: "Teaching Intro CS in Python"
   date: "August 2013-June 2014"
