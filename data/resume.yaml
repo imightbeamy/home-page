@@ -1,8 +1,12 @@
 jobs:
     -
+      title: "CTO"
+      company: "Union Station"
+      date: "Oct '15 - Present"
+    -
       title: "Senior Software Engineer"
       company: "Etsy Inc."
-      date: "June '12 - Present"
+      date: "June '12 - Oct '15"
     -
       title: "Computer Science Teaching Assistant"
       company: "UMBC CS Department"

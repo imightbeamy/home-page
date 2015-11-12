@@ -1,4 +1,4 @@
-#!/Users/amy/anaconda/bin/python
+#!/usr/bin/python
 
 import pystache
 import yaml
