@@ -1,4 +1,11 @@
 -
+  title: "Scanimals, a CT scan search engine for paleontologist"
+  date: "Nov 2015"
+  image: "dino.jpg"
+  link: "https://bone-explorer.herokuapp.com/"
+  description: "Won best tool for researchers at the AMNH's <a href='http://hackthedinos.splashthat.com/'>Hack the Dinos</a>!"
+  source: "https://github.com/HackTheDinos/one-big-room"
+-
   title: "Sunrise, Sunset"
   date: "Sept 2015"
   image: "sun.jpg"
