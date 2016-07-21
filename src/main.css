@@ -3,22 +3,21 @@ body {
     font-family: 'Gabriela', Georgia, serif;
     margin: auto;
 }
+
+h1,h2 {
+    margin: 0;
+    text-align: center;
+    color: #00d5e4;
+}
+
 h1 {
     margin: 10px;
     padding: 0;
-    text-align: center;
     font-size: 3em;
-    color: #AA3030;
 }
-h2 {
-    margin: 0;
-}
-h3 {
-    margin: 15px 0 0;
-}
+
 section {
-    border: solid 1px #E4E4E4;
-    border-radius: 3px;
+    border-top: solid 1px #E4E4E4;
     padding: 10px;
     margin: 10px;
 }
@@ -41,19 +40,19 @@ section.intro {
 .icon {
     width: 3em;
     height: 3em;
-    fill: #AA3030;
+    fill: #ff2bd8;
 }
 
 .icon:hover {
-    fill: #C9C9C9;
+    fill: #ffd800;
 }
 
 a {
-    color: #AA3030;
+    color: #ff2b2b;
     text-decoration: none;
 }
 a:hover {
-    text-decoration:underline;
+    color: #ffd800;
 }
 .social a {
     text-decoration:none;
@@ -109,13 +108,6 @@ ol {
     margin: 10px 0;
 }
 
-.art img {
-    max-height: 300px;
-    max-width: 100%;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
 .updated {
     text-align: center;
     padding: 10px 0;
@@ -139,6 +131,11 @@ ol {
 @media (max-width: 350px) {
     .projects p {
         clear: both;
-        margin: 0;
+        margin: 5px 0;
+    }
+
+    .projects li > a {
+        display: block;
+        overflow: hidden;
     }
 }
