@@ -1,5 +1,25 @@
 SetOutputFilter DEFLATE
 
+RewriteCond %{HTTP_HOST} ^amyciavolino\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.amyciavolino\.net$
+RewriteRule ^(.*)$ "http\:\/\/amyciavolino\.com\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^amyciavolino\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.amyciavolino\.org$
+RewriteRule ^(.*)$ "http\:\/\/amyciavolino\.com\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^singlelinesoftware\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.singlelinesoftware\.com$
+RewriteRule ^(.*)$ "http\:\/\/amyciavolino\.com\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^singlelinesoftware\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.singlelinesoftware\.net$
+RewriteRule ^(.*)$ "http\:\/\/amyciavolino\.com\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^singlelinesoftware\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.singlelinesoftware\.org$
+RewriteRule ^(.*)$ "http\:\/\/amyciavolino\.com\/$1" [R=301,L]
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
