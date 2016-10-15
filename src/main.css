@@ -69,17 +69,16 @@ ol {
 .resume ol {
     font-size: .8em;
     margin: 0;
-    color: #888;
     margin: 0 0 1em 1em;
-}
-.resume strong {
-    color: #000;
 }
 .resume span  {
     float: right;
 }
 .resume li {
     margin-top: 1em;
+}
+.resume a {
+    white-space: nowrap;
 }
 .resume .pubs {
     line-height: 1.5em;

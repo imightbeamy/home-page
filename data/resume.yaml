@@ -1,32 +1,35 @@
 jobs:
     -
+      title: "Senior Software Engineer"
+      company: "Khan Academy"
+      date: "Oct '16 - present"
+      link: "https://www.khanacademy.org/"
+    -
       title: "Chief Technology Officer and Sole Engineer"
       company: "Union Station"
       date: "Oct '15 - July '16"
+      link: "https://www.unionstation.com/"
     -
       title: "Senior Software Engineer"
-      company: "Etsy Inc."
+      company: "Etsy"
       date: "June '12 - Oct '15"
+      link: "https://www.etsy.com/"
     -
-      title: "Computer Science Teaching Assistant"
+      title: "Computer Science Tutor and Teaching Assistant"
       company: "UMBC CS Department"
-      date: "Sept '11 - May '12"
+      date: "Sept '10 - May '12"
+      link: "https://www.csee.umbc.edu/"
     -
       title: "Software Engineering Intern"
-      company: "Google Inc."
+      company: "Google/YouTube"
       date: "Summer '11"
+      link: "https://www.google.com"
     -
       title: "Research Assistant"
       company: "MAPLE Lab at UMBC"
       date: "Jan '10 - Aug '11"
-    -
-      title: "Computer Science Tutor and Lab Assistant"
-      company: "UMBC CS Department"
-      date: "Sept '10 - May '11"
-    -
-      title: "NSF Research Experience for Undergraduates"
-      company: "Rochester Inst of Tech"
-      date: "Summer '10"
+      link: "http://maple.cs.umbc.edu/"
+
 education:
     -
       school: "University of Maryland Baltimore County"
