@@ -1,15 +1,22 @@
 -
+  title: "One Big Search"
+  date: "Nov 2016"
+  image: "stacks.png"
+  link: "http://amnh-meta-search.herokuapp.com"
+  description: "Awarded \"project most likely to change the way research is done\" at AMNH's <a href='https://github.com/amnh/HacktheStacks/wiki'>Hack the Stacks</a>!"
+  source: "https://github.com/HackTheStacks/one-big-room"
+-
   title: "Cutealism"
   date: "July 2016"
   image: "cutealism.gif"
   link: "http://cutealism.com/"
-  description: "An art collaboration (that's just getting started!) with Eli Feasley"
+  description: "An art collaboration with Eli Feasley"
 -
   title: "Scanimals, a CT scan search engine for paleontologist"
   date: "Nov 2015"
   image: "dino.jpg"
   link: "https://bone-explorer.herokuapp.com/"
-  description: "Won best tool for researchers at the AMNH's <a href='http://hackthedinos.splashthat.com/'>Hack the Dinos</a>!"
+  description: "Won \"Best Tool for Researchers\" at the AMNH's <a href='http://hackthedinos.splashthat.com/'>Hack the Dinos</a>!"
   source: "https://github.com/HackTheDinos/one-big-room"
 -
   title: "Sunrise, Sunset"
