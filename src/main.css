@@ -66,22 +66,16 @@ ol {
     padding: 0;
 }
 
-.resume ol {
-    font-size: .8em;
-    margin: 0;
-    margin: 0 0 1em 1em;
+.resume {
+    text-align: center;
 }
-.resume span  {
-    float: right;
-}
-.resume li {
-    margin-top: 1em;
-}
-.resume a {
+.resume a, .resume span {
     white-space: nowrap;
 }
-.resume .pubs {
-    line-height: 1.5em;
+.resume span span {
+    color: grey;
+    font-size: 0.8em;
+    padding-right: 0.3em;
 }
 
 .projects img {
@@ -113,18 +107,6 @@ ol {
 }
 .updated a {
     white-space: nowrap;
-}
-
-@media (max-width: 630px) {
-    .resume ol {
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 580px) {
-    .resume span  {
-        display: none;
-    }
 }
 
 @media (max-width: 350px) {

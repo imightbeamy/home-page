@@ -39,11 +39,11 @@
   </section>
   <section class="resume">
     <h2 id="resume">for $$$</h2>
-    <ol class="jobs">
+    <div class="jobs">
         {{# resume.jobs }}
-        <li>{{ title }}, <a href="{{link}}">{{ company }}</a> <span>{{date}}</span></li>
+        <span><a href="{{link}}">{{ company }}</a> <span>({{date}})</span>  </span>
         {{/ resume.jobs }}
-    </ol>
+    </div>
     <a href="{{ assets }}/Resume_AmyCiavolino.pdf">Resume PDF</a>
   </section>
   <div class="updated">
