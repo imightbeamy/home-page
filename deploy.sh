@@ -65,6 +65,7 @@ fi
 echo "Starting Uploads... "
 upload index.html
 upload projects.html
+upload portfolio.html
 upload .htaccess
 
 if [ -n "$UPLOAD_ASSETS" ] ; then

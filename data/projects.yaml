@@ -5,6 +5,7 @@
   link: "http://cutealism.com/fight"
   description: "An interactive guide to protecting your data and accounts online."
   source: "https://github.com/cutealism/so-you-want-to-fight-the-state"
+  featured: true
 -
   title: "One Big Search"
   date: "Nov 2016"
@@ -12,12 +13,14 @@
   link: "http://amnh-meta-search.herokuapp.com"
   description: "Awarded \"project most likely to change the way research is done\" at AMNH's <a href='https://github.com/amnh/HacktheStacks/wiki'>Hack the Stacks</a>!"
   source: "https://github.com/HackTheStacks/one-big-room"
+  featured: true
 -
   title: "Cutealism"
   date: "July 2016"
   image: "cutealism.gif"
   link: "http://cutealism.com/"
   description: "An art collaboration with Eli Feasley"
+  featured: true
 -
   title: "Scanimals, a CT scan search engine for paleontologist"
   date: "Nov 2015"
@@ -32,6 +35,7 @@
   link: "https://sunrise-sunset.herokuapp.com/"
   description: "Pulls recent sunrise and sunset images from twitter"
   source: "https://github.com/imightbeamy/sunrise-sunset"
+  featured: true
 -
   title: "Event Merge for Google Calendar (tm)"
   date: "May 2014"
@@ -39,6 +43,7 @@
   link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
   description: 'Chrome extension that visually merges the same event on multiple calendars.'
   source: "https://github.com/imightbeamy/gcal-multical-event-merge"
+  featured: true
 -
   title: "Buzzerbot 9000"
   date: "Summer 2013/Spring 2014"

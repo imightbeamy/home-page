@@ -7,7 +7,6 @@ import time
 from csscompressor import compress
 
 PROJECT_YAML = 'projects.yaml'
-NEW_PROJ_NUMBER = 4
 RESUME_YALM = 'resume.yaml'
 ASSET_DIR = 'assets'
 ART_DIR = ASSET_DIR + '/art'
@@ -22,7 +21,7 @@ def render():
         'assets': ASSET_DIR,
         'month': time.localtime().tm_mon,
         'year': time.localtime().tm_year,
-        'projects': projects[:NEW_PROJ_NUMBER],
+        'projects': [p for p in projects if p.get('featured', False)],
         'all_projects': projects,
         'resume': from_yaml(RESUME_YALM),
         'art': art(),
