@@ -1,4 +1,11 @@
 -
+  title: "Mindful Communication In Code Reviews"
+  date: "Aug 2017"
+  image: "mindful.jpg"
+  link: "/assets/MindfulCommunicationInCodeReviews.pdf"
+  description: "A talk on applying mindful communication to reviwing code."
+  featured: true
+-
   title: "So you want to fight the state?"
   date: "Jan 2017"
   image: "tor.gif"
