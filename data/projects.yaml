@@ -42,7 +42,6 @@
   link: "https://sunrise-sunset.herokuapp.com/"
   description: "Pulls recent sunrise and sunset images from twitter"
   source: "https://github.com/imightbeamy/sunrise-sunset"
-  featured: true
 -
   title: "Event Merge for Google Calendar (tm)"
   date: "May 2014"
