@@ -1,4 +1,11 @@
 -
+  title: "Which Bachelor Contestant Are You?"
+  date: "Jan 2018"
+  image: "rose.gif"
+  link: "https://imightbeamy.github.io/bachelorette-quiz/"
+  description: "V silly quiz from contestant bio Q & As"
+  featured: true
+-
   title: "Mindful Communication In Code Reviews"
   date: "Aug 2017"
   image: "mindful.jpg"
