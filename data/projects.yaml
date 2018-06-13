@@ -4,6 +4,7 @@
   image: "rose.gif"
   link: "https://imightbeamy.github.io/bachelorette-quiz/"
   description: "V silly quiz from contestant bio Q & As"
+  source: "https://github.com/imightbeamy/bachelorette-quiz"
   featured: true
 -
   title: "Mindful Communication In Code Reviews"
@@ -27,7 +28,6 @@
   link: "http://amnh-meta-search.herokuapp.com"
   description: "Awarded \"project most likely to change the way research is done\" at AMNH's <a href='https://github.com/amnh/HacktheStacks/wiki'>Hack the Stacks</a>!"
   source: "https://github.com/HackTheStacks/one-big-room"
-  featured: true
 -
   title: "Cutealism"
   date: "July 2016"
@@ -76,24 +76,24 @@
   link: "http://right-now-at-fluent.herokuapp.com/"
   description: 'HUD for what talks were happening at <a href="http://fluentconf.com/fluent2014">Fluent Conf 2014</a>.'
   source: "https://github.com/imightbeamy/happening-now-at"
--
-  title: "Home Page for Liz Ciavolino"
-  date: "January 2013"
-  image: "LizHarpSite.png"
-  link: "http://lizciavolino.com"
-  description: "Homepage for Liz Ciavolino to take harp performance requests."
--
-  title: "Etsy Drift"
-  date: "November 2011"
-  image: "drift.png"
-  link: "http://etsydrift.appspot.com"
-  description: "Web application developed on Google App Engine using the Etsy API."
--
-  title: "Photo Hash"
-  date: "October 2011"
-  image: "photohash.png"
-  link: "http://www.photohash.appspot.com"
-  description: "Web application developed on Google App Engine using the Google+ API. The Google+ API has since changed, and this hasn't been updated."
+# -
+#   title: "Home Page for Liz Ciavolino"
+#   date: "January 2013"
+#   image: "LizHarpSite.png"
+#   link: "http://lizciavolino.com"
+#   description: "Homepage for Liz Ciavolino to take harp performance requests."
+# -
+#   title: "etsy drift"
+#   date: "november 2011"
+#   image: "drift.png"
+#   link: "http://etsydrift.appspot.com"
+#   description: "web application developed on google app engine using the etsy api."
+# -
+#   title: "photo hash"
+#   date: "october 2011"
+#   image: "photohash.png"
+#   link: "http://www.photohash.appspot.com"
+#   description: "web application developed on google app engine using the google+ api. the google+ api has since changed, and this hasn't been updated."
 -
   title: "Generalized Automatic Color Selection for Visualization"
   date: "Fall 2011"
