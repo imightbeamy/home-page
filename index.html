@@ -43,7 +43,7 @@
     <div class="jobs">
 
       {% for job in site.data.resume.jobs %}
-        <span><a href="link">{{ job.company }}</a> <span>({{job.date}})</span>  </span>
+        <span><a href="{{ job.link }}">{{ job.company }}</a> <span>({{job.date}})</span>  </span>
       {% endfor %}
     </div>
   </section>
