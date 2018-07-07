@@ -1,0 +1,12 @@
+<li>
+    <a href="{{ project.link }}">
+        <img src="/assets/projects/{{ project.image }}" />
+        <span>{{ project.title }}</span>
+    </a>
+    <p>
+        {{ project.description }}
+        {% if project.source %}
+          (<a href="{{ project.source }}">Source</a>)
+        {% endif %}
+    </p>
+</li>

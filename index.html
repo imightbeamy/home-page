@@ -1,8 +1,10 @@
+---
+---
 <!DOCTYPE html>
 <html>
 <head>
   <title>Amy Ciavolino - Software Engineer in NYC</title>
-  {{> src/head }}
+  {% include head.html %}
 </head>
 <body>
   <h1>Amy Ciavolino</h1>
@@ -29,27 +31,29 @@
   <section class="projects">
     <h2 id="projects">for fun</h2>
     <ol>
-        {{# projects }}
-          {{> src/project }}
-        {{/ projects }}
+      {% assign featured_projects = site.data.projects | where: "featured",true %}
+      {% for project in featured_projects %}
+        {% include project.html project=project %}
+      {% endfor %}
     </ol>
     <a href="projects">Older projects</a>
   </section>
   <section class="resume">
     <h2 id="resume">for $$$</h2>
     <div class="jobs">
-        {{# resume.jobs }}
-        <span><a href="{{link}}">{{ company }}</a> <span>({{date}})</span>  </span>
-        {{/ resume.jobs }}
+
+      {% for job in site.data.resume.jobs %}
+        <span><a href="link">{{ job.company }}</a> <span>({{job.date}})</span>  </span>
+      {% endfor %}
     </div>
   </section>
   <section class="updated">
     <a href="https://jobs.lever.co/kickstarter?lever-via=1rZoJBVUQC&team=Engineering">Come work with me at Kickstarter</a>
   </section>
   <div class="updated">
-    Last updated {{ month }}/{{ year }}
-    {{*(<a href="https://github.com/imightbeamy/home-page">Source on GitHub</a>)*}}
+    Last updated {{ site.time | date: "%m / %Y" }}
+    (<a href="https://github.com/imightbeamy/home-page">Source on GitHub</a>)
   </div>
-  {{> src/google_tracking }}
+  {% include google_tracking.html %}
 </body>
 </html>

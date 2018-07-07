@@ -1,8 +1,10 @@
+---
+---
 <!DOCTYPE html>
 <html>
 <head>
     <title>Amy Ciavolino - Projects</title>
-    {{> src/head }}
+    {% include head.html %}
 </head>
 <body>
     <section class="intro">
@@ -11,9 +13,9 @@
     <section class="projects">
     <h2 id="projects">Projects</h2>
     <ol>
-        {{# all_projects }}
-          {{> src/project }}
-        {{/ all_projects }}
+        {% for project in site.data.projects %}
+            {% include project.html project=project %}
+        {% endfor %}
     </ol>
   </section>
 </body>
