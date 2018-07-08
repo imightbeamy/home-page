@@ -1,6 +1,6 @@
 body {
     max-width: 700px;
-    font-family: 'Gabriela', Georgia, serif;
+    font-family: 'Open Sans', sans-serif;
     margin: auto;
 }
 
@@ -8,12 +8,15 @@ h1,h2 {
     margin: 0;
     text-align: center;
     color: #00d5e4;
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
 }
 
 h1 {
-    margin: 10px;
+    margin: auto;
     padding: 0;
-    font-size: 3em;
+    font-size: 2em;
+    max-width: 15em;
 }
 
 section {
@@ -79,19 +82,16 @@ ol {
 }
 
 .projects img {
-    max-width: 50px;
-    min-width: 2em;
-    width: 15%;
+    width: 50px;
     float: left;
     margin-right: 10px;
     border-radius: 5px;
 }
 .projects p {
     font-size: .8em;
-    margin: 0;
+    margin: 0 0 0 60px;
 }
 .projects span {
-    font-weight: bold;
     display: block;
     overflow: hidden;
 }

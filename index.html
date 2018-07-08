@@ -3,14 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Amy Ciavolino - Software Engineer in NYC</title>
+  <title>Amy - Software Engineer in NYC</title>
   {% include head.html %}
 </head>
 <body>
-  <h1>Amy Ciavolino</h1>
   <section class="intro">
-      <p>Software engineer, artist &amp; activist in NYC</p>
-      <p>Say hello: <a href="mailto:hi@amy.tech">hi@amy.tech</a></p>
+      <h1>Amy is a software engineer, artist &amp; activist in NYC</h1>
       <div class="social">
         <span>
           <a href="https://github.com/imightbeamy">
@@ -39,7 +37,7 @@
     <a href="projects">Older projects</a>
   </section>
   <section class="resume">
-    <h2 id="resume">for $$$</h2>
+    <h2 id="resume">for money</h2>
     <div class="jobs">
 
       {% for job in site.data.resume.jobs %}
@@ -48,7 +46,8 @@
     </div>
   </section>
   <section class="updated">
-    <a href="https://jobs.lever.co/kickstarter?lever-via=1rZoJBVUQC&team=Engineering">Come work with me at Kickstarter</a>
+    <a href="mailto:hi@amy.tech">Say hello</a> or
+    <a href="https://jobs.lever.co/kickstarter?lever-via=1rZoJBVUQC&team=Engineering">come work with me at Kickstarter</a>
   </section>
   <div class="updated">
     Last updated {{ site.time | date: "%m / %Y" }}
