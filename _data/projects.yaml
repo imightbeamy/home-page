@@ -1,4 +1,18 @@
 -
+  title: "Mindful Communication In Code Reviews"
+  date: "July 2018"
+  image: "mindful.jpg"
+  link: "https://kickstarter.engineering/a-guide-to-mindful-communication-in-code-reviews-48aab5282e5e"
+  description: "A guide to applying mindful communication to reviwing code."
+  featured: true
+-
+  title: "Rebel Steps"
+  date: "June 2018"
+  image: "rebelsteps.jpg"
+  link: "http://rebelsteps.com/"
+  description: "A podcast for anyone who wants to take political action and doesn’t know exactly where to get started."
+  featured: true
+-
   title: "Which Bachelor Contestant Are You?"
   date: "Jan 2018"
   image: "rose.gif"
@@ -7,19 +21,12 @@
   source: "https://github.com/imightbeamy/bachelorette-quiz"
   featured: true
 -
-  title: "Mindful Communication In Code Reviews"
-  date: "Aug 2017"
-  image: "mindful.jpg"
-  link: "/assets/MindfulCommunicationInCodeReviews.pdf"
-  description: "A talk on applying mindful communication to reviwing code."
-  featured: true
--
-  title: "So you want to fight the state?"
-  date: "Jan 2017"
-  image: "tor.gif"
-  link: "http://cutealism.com/fight"
-  description: "An interactive guide to protecting your data and accounts online."
-  source: "https://github.com/cutealism/so-you-want-to-fight-the-state"
+  title: "Event Merge for Google Calendar™"
+  date: "May 2014"
+  image: "gcal_cex.png"
+  link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
+  description: 'Chrome extension that visually merges the same event on multiple calendars.'
+  source: "https://github.com/imightbeamy/gcal-multical-event-merge"
   featured: true
 -
   title: "One Big Search"
@@ -36,6 +43,14 @@
   description: "Like brutalism, but cute af."
   featured: true
 -
+  title: "So you want to fight the state?"
+  date: "Jan 2017"
+  image: "tor.gif"
+  link: "http://cutealism.com/fight"
+  description: "An interactive guide to protecting your data and accounts online."
+  source: "https://github.com/cutealism/so-you-want-to-fight-the-state"
+  featured: true
+-
   title: "Scanimals, a CT scan search engine for paleontologist"
   date: "Nov 2015"
   image: "dino.jpg"
@@ -49,14 +64,6 @@
   link: "https://sunrise-sunset.herokuapp.com/"
   description: "Pulls recent sunrise and sunset images from twitter"
   source: "https://github.com/imightbeamy/sunrise-sunset"
--
-  title: "Event Merge for Google Calendar™"
-  date: "May 2014"
-  image: "gcal_cex.png"
-  link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
-  description: 'Chrome extension that visually merges the same event on multiple calendars.'
-  source: "https://github.com/imightbeamy/gcal-multical-event-merge"
-  featured: true
 -
   title: "Buzzerbot 9000"
   date: "Summer 2013/Spring 2014"
