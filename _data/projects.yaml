@@ -2,6 +2,7 @@
   title: "Mindful Communication In Code Reviews"
   date: "July 2018"
   image: "mindful.jpg"
+  image_alt: "A brain, aka mind.. for mindful. Get it?"
   link: "https://kickstarter.engineering/a-guide-to-mindful-communication-in-code-reviews-48aab5282e5e"
   description: "A guide to applying mindful communication to reviwing code."
   featured: true
@@ -9,6 +10,7 @@
   title: "Rebel Steps"
   date: "June 2018"
   image: "rebelsteps.jpg"
+  image_alt: "Rebel Steps logo"
   link: "http://rebelsteps.com/"
   description: "A podcast for anyone who wants to take political action and doesn’t know exactly where to get started."
   featured: true
@@ -16,6 +18,7 @@
   title: "Which Bachelor Contestant Are You?"
   date: "Jan 2018"
   image: "rose.gif"
+  image_alt: "Two hearts and two roses with moving sparkles on top."
   link: "https://imightbeamy.github.io/bachelorette-quiz/"
   description: "V silly quiz from contestant bio Q & As"
   source: "https://github.com/imightbeamy/bachelorette-quiz"
@@ -24,6 +27,7 @@
   title: "Event Merge for Google Calendar™"
   date: "May 2014"
   image: "gcal_cex.png"
+  image_alt: "Two calendar events merged with stripes."
   link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
   description: 'Chrome extension that visually merges the same event on multiple calendars.'
   source: "https://github.com/imightbeamy/gcal-multical-event-merge"
@@ -32,6 +36,7 @@
   title: "One Big Search"
   date: "Nov 2016"
   image: "stacks.png"
+  image_alt: "Hack the Stacks logo: A book in an HTML tag"
   link: "http://amnh-meta-search.herokuapp.com"
   description: "Awarded \"project most likely to change the way research is done\" at AMNH's <a href='https://github.com/amnh/HacktheStacks/wiki'>Hack the Stacks</a>!"
   source: "https://github.com/HackTheStacks/one-big-room"
@@ -39,6 +44,7 @@
   title: "Cutealism"
   date: "July 2016"
   image: "cutealism.gif"
+  image_alt: "Animated confetti in bright colors."
   link: "http://cutealism.com/"
   description: "Like brutalism, but cute af."
   featured: true
@@ -46,6 +52,7 @@
   title: "So you want to fight the state?"
   date: "Jan 2017"
   image: "tor.gif"
+  image_alt: "An example merit badge from the guide."
   link: "http://cutealism.com/fight"
   description: "An interactive guide to protecting your data and accounts online."
   source: "https://github.com/cutealism/so-you-want-to-fight-the-state"
@@ -54,6 +61,7 @@
   title: "Scanimals, a CT scan search engine for paleontologist"
   date: "Nov 2015"
   image: "dino.jpg"
+  image_alt: "A CT scanned dino skull"
   link: "https://bone-explorer.herokuapp.com/"
   description: "Won \"Best Tool for Researchers\" at the AMNH's <a href='http://hackthedinos.splashthat.com/'>Hack the Dinos</a>!"
   source: "https://github.com/HackTheDinos/one-big-room"
@@ -61,6 +69,7 @@
   title: "Sunrise, Sunset"
   date: "Sept 2015"
   image: "sun.jpg"
+  image_alt: "A sunrise"
   link: "https://sunrise-sunset.herokuapp.com/"
   description: "Pulls recent sunrise and sunset images from twitter"
   source: "https://github.com/imightbeamy/sunrise-sunset"
@@ -68,6 +77,7 @@
   title: "Buzzerbot 9000"
   date: "Summer 2013/Spring 2014"
   image: "buzzerbot.png"
+  image_alt: "An anthropomorphic door buzzer, pressing its own open button"
   link: "https://github.com/imightbeamy/buzzerbot9000"
   description: 'Raspi/twilio/node robot that opens the door to my apartment building.'
 -

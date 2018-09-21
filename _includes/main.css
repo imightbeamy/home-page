@@ -2,12 +2,12 @@ body {
     max-width: 700px;
     font-family: 'Open Sans', sans-serif;
     margin: auto;
+    color: #333333;
 }
 
 h1,h2 {
     margin: 0;
     text-align: center;
-    color: #00d5e4;
     font-family: 'Overpass', sans-serif;
     font-weight: normal;
 }
@@ -43,19 +43,21 @@ section.intro {
 .icon {
     width: 3em;
     height: 3em;
-    fill: #ff2bd8;
+    fill: #D600AF;
+    transition: all .2s;
 }
 
 .icon:hover {
-    fill: #ffd800;
+    fill: #8F0075;
 }
 
 a {
-    color: #ff2b2b;
+    color: #D600AF;
     text-decoration: none;
+    transition: all .2s;
 }
 a:hover {
-    color: #ffd800;
+    color: #8F0075;
 }
 .social a {
     text-decoration:none;
@@ -76,13 +78,14 @@ ol {
     white-space: nowrap;
 }
 .resume span span {
-    color: grey;
+    color: #575757;
     font-size: 0.8em;
     padding-right: 0.3em;
 }
 
 .projects img {
     width: 50px;
+    height: 50px;
     float: left;
     margin-right: 10px;
     border-radius: 5px;

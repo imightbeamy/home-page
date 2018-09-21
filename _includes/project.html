@@ -1,6 +1,9 @@
 <li>
     <a href="{{ project.link }}">
-        <img src="{{ site.baseurl }}/assets/projects/{{ project.image }}" />
+        <img
+            src="{{ site.baseurl }}/assets/projects/{{ project.image }}"
+            alt="{{ project.image_alt }}"
+        />
         <span>{{ project.title }}</span>
     </a>
     <p>
