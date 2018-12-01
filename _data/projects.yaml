@@ -1,4 +1,12 @@
 -
+  title: "Cutealism Slack Emoji Pack"
+  date: "Dec 2018"
+  image: "bouncing.gif"
+  image_alt: "bouncing balls emoji"
+  link: "http://cutealism.com/emoji"
+  description: "A set of Cutealism emoji to use in Slack or other chat apps."
+  featured: true
+-
   title: "Mindful Communication In Code Reviews"
   date: "July 2018"
   image: "mindful.jpg"
@@ -22,7 +30,6 @@
   link: "https://imightbeamy.github.io/bachelorette-quiz/"
   description: "V silly quiz from contestant bio Q & As"
   source: "https://github.com/imightbeamy/bachelorette-quiz"
-  featured: true
 -
   title: "Event Merge for Google Calendar™"
   date: "May 2014"
@@ -46,7 +53,7 @@
   image: "cutealism.gif"
   image_alt: "Animated confetti in bright colors."
   link: "http://cutealism.com/"
-  description: "Like brutalism, but cute af."
+  description: "Like brutalism, but cute af. An ongoing art project to make cute things."
   featured: true
 -
   title: "So you want to fight the state?"
