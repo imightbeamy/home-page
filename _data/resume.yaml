@@ -1,8 +1,13 @@
 jobs:
     -
+      title: "Senior Software II"
+      company: "Etsy"
+      date: "June '20 - ???"
+      link: "https://www.kickstarter.com/"
+    -
       title: "Senior Software Engineer/Manager"
       company: "Kickstarter"
-      date: "June '17 - ???"
+      date: "June '17 - May '20"
       link: "https://www.kickstarter.com/"
     -
       title: "Senior Software Engineer"
