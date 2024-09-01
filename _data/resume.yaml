@@ -1,8 +1,13 @@
 jobs:
     -
+      title: "Engineering Manager"
+      company: "Betterment"
+      date: "January '23 - ???"
+      link: "https://betterment.com/"
+    -
       title: "Senior Software II"
       company: "Etsy"
-      date: "June '20 - ???"
+      date: "June '20 - Nov '22"
       link: "https://www.etsy.com/"
     -
       title: "Senior Software Engineer/Manager"
@@ -24,18 +29,18 @@ jobs:
       company: "Etsy"
       date: "June '12 - Oct '15"
       link: "https://www.etsy.com/"
-    -
-      title: "Computer Science Tutor and Teaching Assistant"
-      company: "UMBC CS Department"
-      date: "Sept '10 - May '12"
-      link: "https://www.csee.umbc.edu/"
-    -
-      title: "Software Engineering Intern"
-      company: "Google/YouTube"
-      date: "Summer '11"
-      link: "https://www.google.com"
-    -
-      title: "Research Assistant"
-      company: "MAPLE Lab at UMBC"
-      date: "Jan '10 - Aug '11"
-      link: "http://maple.cs.umbc.edu/"
+    # -
+    #   title: "Computer Science Tutor and Teaching Assistant"
+    #   company: "UMBC CS Department"
+    #   date: "Sept '10 - May '12"
+    #   link: "https://www.csee.umbc.edu/"
+    # -
+    #   title: "Software Engineering Intern"
+    #   company: "Google/YouTube"
+    #   date: "Summer '11"
+    #   link: "https://www.google.com"
+    # -
+    #   title: "Research Assistant"
+    #   company: "MAPLE Lab at UMBC"
+    #   date: "Jan '10 - Aug '11"
+    #   link: "http://maple.cs.umbc.edu/"

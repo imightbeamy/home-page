@@ -13,7 +13,8 @@
     <section class="projects">
     <h2 id="projects">Projects</h2>
     <ol>
-        {% for project in site.data.projects %}
+        {% assign all_projects = site.data.projects | where_exp: "project", "project.hidden != true" %}
+        {% for project in all_projects %}
             {% include project.html project=project %}
         {% endfor %}
     </ol>

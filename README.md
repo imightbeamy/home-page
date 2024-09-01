@@ -1,1 +1,3 @@
-Source for http://amyciavolino.com
+Source for http://amyciavolino.com / amy.tech
+
+ jekyll site

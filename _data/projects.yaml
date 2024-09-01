@@ -1,10 +1,18 @@
 -
-  title: "Cutealism Slack Emoji Pack"
-  date: "Dec 2018"
-  image: "bouncing.gif"
+  title: "Painting"
+  date: "Dec 2021"
+  image: "painting.jpg"
+  image_alt: ""
+  link: "art.amy.tech"
+  description: "Buy prints and originals of my paintings."
+  featured: true
+-
+  title: "Animated gifs"
+  date: ""
+  image: "giphy_profile.gif"
   image_alt: "bouncing balls emoji"
-  link: "http://cutealism.com/emoji"
-  description: "A set of Cutealism emoji to use in Slack or other chat apps."
+  link: "https://giphy.com/imightbeamy"
+  description: "My gifs on Giphy, with 4.2B views and counting!"
   featured: true
 -
   title: "Mindful Communication In Code Reviews"
@@ -30,15 +38,15 @@
   link: "https://imightbeamy.github.io/bachelorette-quiz/"
   description: "V silly quiz from contestant bio Q & As"
   source: "https://github.com/imightbeamy/bachelorette-quiz"
+  hidden: true
 -
   title: "Event Merge for Google Calendar™"
   date: "May 2014"
   image: "gcal_cex.png"
   image_alt: "Two calendar events merged with stripes."
   link: "https://chrome.google.com/webstore/detail/event-merge-for-google-ca/idehaflielbgpaokehlhidbjlehlfcep"
-  description: 'Chrome extension that visually merges the same event on multiple calendars.'
+  description: 'Chrome extension that visually merges the same event on multiple calendars. (Currently out of date/not maintained)'
   source: "https://github.com/imightbeamy/gcal-multical-event-merge"
-  featured: true
 -
   title: "One Big Search"
   date: "Nov 2016"
@@ -52,9 +60,17 @@
   date: "July 2016"
   image: "cutealism.gif"
   image_alt: "Animated confetti in bright colors."
-  link: "http://cutealism.com/"
-  description: "Like brutalism, but cute af. An ongoing art project to make cute things."
+  link: "https://cutealism.github.io/cutealism/"
+  description: "Like brutalism, but cute af. An art project to make cute things often with a political message."
   featured: true
+-
+  title: "Cutealism Slack Emoji Pack"
+  date: "Dec 2018"
+  image: "bouncing.gif"
+  image_alt: "bouncing balls emoji"
+  link: "http://cutealism.com/emoji"
+  description: "A set of Cutealism emoji to use in Slack or other chat apps."
+  hidden: true
 -
   title: "So you want to fight the state?"
   date: "Jan 2017"
@@ -63,7 +79,7 @@
   link: "http://cutealism.com/fight"
   description: "An interactive guide to protecting your data and accounts online."
   source: "https://github.com/cutealism/so-you-want-to-fight-the-state"
-  featured: true
+  hidden: true
 -
   title: "Scanimals, a CT scan search engine for paleontologist"
   date: "Nov 2015"
@@ -93,6 +109,7 @@
   image: "ischool_logo.png"
   link: "https://github.com/NYCiSchoolCS/think-python"
   description: 'Assignments, slides, and other materials for a computer science class I taught at NYC iSchool.'
+  hidden: true  
 -
   title: "Right Now at Fluent"
   date: "March 2014"
@@ -100,42 +117,49 @@
   link: "http://right-now-at-fluent.herokuapp.com/"
   description: 'HUD for what talks were happening at <a href="http://fluentconf.com/fluent2014">Fluent Conf 2014</a>.'
   source: "https://github.com/imightbeamy/happening-now-at"
-# -
-#   title: "Home Page for Liz Ciavolino"
-#   date: "January 2013"
-#   image: "LizHarpSite.png"
-#   link: "http://lizciavolino.com"
-#   description: "Homepage for Liz Ciavolino to take harp performance requests."
-# -
-#   title: "etsy drift"
-#   date: "november 2011"
-#   image: "drift.png"
-#   link: "http://etsydrift.appspot.com"
-#   description: "web application developed on google app engine using the etsy api."
-# -
-#   title: "photo hash"
-#   date: "october 2011"
-#   image: "photohash.png"
-#   link: "http://www.photohash.appspot.com"
-#   description: "web application developed on google app engine using the google+ api. the google+ api has since changed, and this hasn't been updated."
+  hidden: true
+-
+  title: "Home Page for Liz Ciavolino"
+  date: "January 2013"
+  image: "LizHarpSite.png"
+  link: "http://lizciavolino.com"
+  description: "Homepage for Liz Ciavolino to take harp performance requests."
+  hidden: true
+-
+  title: "etsy drift"
+  date: "november 2011"
+  image: "drift.png"
+  link: "http://etsydrift.appspot.com"
+  description: "web application developed on google app engine using the etsy api."
+  hidden: true
+-
+  title: "photo hash"
+  date: "october 2011"
+  image: "photohash.png"
+  link: "http://www.photohash.appspot.com"
+  description: "web application developed on google app engine using the google+ api. the google+ api has since changed, and this hasn't been updated."
+  hidden: true
 -
   title: "Generalized Automatic Color Selection for Visualization"
   date: "Fall 2011"
   image: "color.png"
   link: "assets/color.pdf"
   description: "Project for CMSC 636, Data Visualization."
+  hidden: true
 -
   title: "Chrome theme for UMBC"
   date: "September 2011"
   image: "theme.png"
   link: "https://chrome.google.com/webstore/detail/nkbeinhlhlcadmfpaihnallbljoopogh"
   description: "This is a Chrome theme with University of Maryland Baltimore County colors!"
+  hidden: true
 -
   title: "Playing to Program"
   date: "Januray 2010 - May 2011"
   image: "rur-ple-1.png"
   link: "http://code.google.com/p/play-to-program/"
   description: 'Computer science teaching reseach with <a href="http://maple.cs.umbc.edu/">MAPLE Lab</a> at UMBC.'
+  hidden: true
   source: "https://code.google.com/p/nuwii/"
 -
   title: "Photo Booth with Live Slideshow"
@@ -143,15 +167,18 @@
   image: "photobooth.jpg"
   link: "http://www.instructables.com/id/Live-Slide-Show-Photo-Booth/"
   description: 'Instructable was featured on the instructables.com home page! Second prize winner of <a href="http://www.instructables.com/contest/partychallenge/">Ultimate Party Challenge!</a>'
+  hidden: true
 -
   title: "Final Project for CMSC 491 - iOS Development"
   date: "Fall 2010"
   image: "CHI2010.png"
   link: "http://userpages.umbc.edu/~dhood2/courses/cmsc491i/fall2010/final-projects/projects/aci1-tburke2/"
   description: 'Final Project for CMSC 491 - iOS Development'
+  hidden: true
 -
   title: "Project for CMSC 635 - Computer Graphics"
   date: "Fall 2010"
   image: "veggies_sq.png"
   link: "assets/veggies.png"
   description: 'Rendered using <a href="http://www.renderpixie.com/">Pixie</a>'
+  hidden: true
