@@ -2,15 +2,15 @@
   title: "Painting"
   date: "Dec 2021"
   image: "painting.jpg"
-  image_alt: ""
-  link: "art.amy.tech"
+  image_alt: "a small part of a painting, showing a one way street sign and crosswalk signal"
+  link: "http://art.amy.tech"
   description: "Buy prints and originals of my paintings."
   featured: true
 -
   title: "Animated gifs"
   date: ""
   image: "giphy_profile.gif"
-  image_alt: "bouncing balls emoji"
+  image_alt: "amy's face in bright colors moving back and forth"
   link: "https://giphy.com/imightbeamy"
   description: "My gifs on Giphy, with 4.2B views and counting!"
   featured: true
